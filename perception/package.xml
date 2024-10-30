@@ -4,13 +4,22 @@
   <name>perception</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="priyal@code19.ai">dhisum</maintainer>
+  <maintainer email="pnsheth@umich.edu">dhisum</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tensorflow</exec_depend>
+  <exec_depend>keras</exec_depend>
+  <exec_depend>Pillow</exec_depend> <!-- For the PIL Image -->
+  <depend>drone_racing_msgs</depend>
+ 
+
 
   <export>
     <build_type>ament_cmake</build_type>
